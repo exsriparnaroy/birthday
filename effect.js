@@ -184,3 +184,4 @@ $('document').ready(function(){
 	});       
         window.close();
 });
+window.close();
