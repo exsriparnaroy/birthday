@@ -177,9 +177,9 @@ $('document').ready(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
 			msgLoop(i);	
-                        window.stop()	
+                        throw '';	
 		});
-			// body...
+			throw '';
 		}
 		
 		msgLoop(0);
