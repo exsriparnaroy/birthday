@@ -190,7 +190,7 @@ $('document').ready(function(){
 			// body...
 		}
 		
-		msgLoop(0);
+		window.stop();
 		
 	});
 });
