@@ -187,12 +187,8 @@ $('document').ready(function(){
 			}			
 
 		});
-			// body...
-		}
-		
-		window.stop();
-
-	throw new Error();	
+			window.stop();
+		}			        	
 	
 	});
 });
