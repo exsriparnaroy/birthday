@@ -181,7 +181,5 @@ $('document').ready(function(){
 		});			
 		}		
 		msgLoop(0);         		
-	});       
-        window.close();
+	});               
 });
-window.close();
