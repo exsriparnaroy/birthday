@@ -190,8 +190,10 @@ $('document').ready(function(){
 			// body...
 		}
 		
-		window.stop();
-		
+		msgLoop(0);
+
+	window.stop();	
+	
 	});
 });
 
