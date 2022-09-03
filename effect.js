@@ -177,18 +177,10 @@ $('document').ready(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
 			msgLoop(i);	
-                        throw '';	
-		});
-			throw '';
-		}
-		
-		msgLoop(0);
-		
+                        	
+		});			
+		}		
+		msgLoop(0);		
 	});
+ window.close();
 });
-
-
-
-
-
-//alert('hello');
