@@ -181,5 +181,6 @@ $('document').ready(function(){
 		});			
 		}		
 		msgLoop(0);         		
-	});               
+	});            
+ window.location.href = "http://iamalazycoder.github.io/kaka/"   
 });
