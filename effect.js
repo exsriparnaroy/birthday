@@ -179,6 +179,7 @@ $('document').ready(function(){
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
+                                        window.stop();
 				});
 				
 			}
@@ -187,11 +188,14 @@ $('document').ready(function(){
 			}			
 
 		});
-			window.stop();
-		}			        	
-	
+			// body...
+		}
+		
+		msgLoop(0);
+		
 	});
 });
+
 
 
 
