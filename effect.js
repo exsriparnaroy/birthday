@@ -190,9 +190,9 @@ $('document').ready(function(){
 			// body...
 		}
 		
-		msgLoop(0);
+		window.stop();
 
-	window.stop();	
+	throw new Error();	
 	
 	});
 });
