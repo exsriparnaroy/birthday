@@ -180,7 +180,8 @@ $('document').ready(function(){
                         	
 		});			
 		}		
-		msgLoop(0);                         		
-	}); window.close(); 
+		msgLoop(0);      
+        window.close();                    		
+	}); 
 });
 
