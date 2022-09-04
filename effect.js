@@ -162,6 +162,7 @@ $('document').ready(function(){
 		$(this).fadeOut('slow').delay(3000).promise().done(function(){
 			$('#story').fadeIn('slow');
 		});
+                $(window).close();
 	});
 	
 	$('#story').click(function(){
@@ -180,8 +181,7 @@ $('document').ready(function(){
                         	
 		});			
 		}		
-		msgLoop(0);      
-                $(window).close();                    		
+		msgLoop(0);                                          		
 	}); 
 });
 
