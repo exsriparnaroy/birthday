@@ -176,14 +176,10 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(800).promise().done(function(){
 			i=i+1;
                         $("p:nth-child("+i+")").fadeIn('slow').delay(1000);
-			if(i==4){
+			if(i==60){
 				window.close();				
-			}
-			
-			else{
-				msgLoop(i);
-			}	
-                        	
+			}			
+			msgLoop(i);				                        	
 		});			
 		}		
 		msgLoop(0);                                          		
