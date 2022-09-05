@@ -183,7 +183,9 @@ $('document').ready(function(){
 				
 			}
 			
-			msgLoop(i);	
+			else{
+				msgLoop(i);
+			}	
                         	
 		});			
 		}		
